@@ -22,6 +22,7 @@ async function getAppDetails(searchTerm) {
             throttle: 5,
             term: searchTerm,
             num: 200,
+            lang: 'en-au',
             country: 'au',
             page: 1,
             fullDetail: true
